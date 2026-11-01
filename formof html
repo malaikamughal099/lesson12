@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<HTML>
+<Head>
+    <title>My Food Menu</title>
+    <style> 
+       body{
+        font-family: Arial;
+        background: white;
+        padding: 36px;
+        text-align:centre;
+       }
+       
+       h1{
+        color: aquamarine;
+       }
+       
+       h1{
+        background: lightblue;
+        padding: 10px 20px;
+        border-radius: 8px;
+        color: aliceblue;
+        display: inline-block;
+       }
+
+       .desc::first-letter{
+        font-size: 60px;
+        color: bisque;
+        font-weight: bold;
+       }
+       
+      a  {
+       color:lightblue;
+       text-decoration:none;
+       font-size:15px;
+       padding: 6px 16px;
+       border:2px;
+       border-radius:8px;
+       }
+
+       a:hover {
+        background: none;
+        color: white;
+
+       }
+    </style>
+</Head>
+<body>
+     <h1>My Food Menu</h1>
+     <p>Pick your favourite dish and dig in!</p>
+     <ul>
+         <li>Pizza</li>
+         <li>Burgger</li>
+         <li>Chiken qurma</li>
+         <li>Ice cream</li>
+         <li>Chiken handi</li>
+     </ul>
+
+     <p class="desc">every dish on this is made with love and load and flavours.</p>
+
+        <div class="links">
+        <a href="#">Order Now</a>
+        <a href="#">See more</a>
+        </div>
+
+</body>
+</HTML>
